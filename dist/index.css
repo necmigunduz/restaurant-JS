@@ -31,7 +31,7 @@ body {
 #container {
   color: white;
   background-color: black;
-  width: 95%;
+  width: auto;
   height: 300px;
   padding: 20px;
   opacity: 0.8;
@@ -64,7 +64,7 @@ body {
 
 .tab {
   overflow: hidden;
-  width: 80%;
+  width: auto;
   margin: 0 20px;
 }
 

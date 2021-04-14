@@ -42,7 +42,7 @@ body {
   margin-top: 85px;
   width: 100%;
   text-align: justify;
-  justify-content: center;
+  justify-content: start;
   line-height: 30px;
   font-size: 18px;
 }
@@ -54,7 +54,8 @@ body {
 .flex-column {
   display: flex;
   flex-direction: column;
-  text-align: center;
+  text-align: start;
+  margin-top: 50px;
 }
 
 .p-b-10 {
@@ -96,5 +97,6 @@ strong {
 }
 
 .contact {
+  margin-top: 50px;
   font-size: 18px;
 }

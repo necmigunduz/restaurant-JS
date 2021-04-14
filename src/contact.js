@@ -1,10 +1,10 @@
-function contact() {
+function Contact() {
     const contact_div = document.createElement('div');
-    contact_div.setAttribute('class','flex-column');
+    contact_div.setAttribute('class','flex-column, contact');
 
-    contact_div.innerHTML = `<span>To send your feedbacks about your experience in our restaurant:</span><span>myexperience@blueocean.com</span><span>For general information requests:</span><span>info@blueocean.com</span>`;
+    contact_div.innerHTML = `<span><strong>To send your feedbacks about your experience in our restaurant: </strong></span><br /><br><span>myexperience@blueocean.com</span><br /><br><span><strong>For general information requests: </strong></span><br /><br><span>info@blueocean.com</span>`;
 
     return contact_div;
 }
 
-export default contact;
+export default Contact;

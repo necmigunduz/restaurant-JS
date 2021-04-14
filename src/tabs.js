@@ -1,4 +1,4 @@
-function tabs() {
+function Tabs() {
     const buttons  =[];
 
     buttons[0] = document.createElement('button');
@@ -13,4 +13,4 @@ function tabs() {
     return buttons;
 };
 
-export default tabs;
+export default Tabs;

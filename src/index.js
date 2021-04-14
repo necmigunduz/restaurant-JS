@@ -9,19 +9,19 @@ const header = document.createElement('h1');
 header.setAttribute('id', 'header');
 header.textContent = "BlueOcean";
 const div = document.createElement('div');
-div.setAttribute('id','restaurant');
+div.setAttribute('id', 'restaurant');
 div.textContent = "Seafood Restaurant";
 header.appendChild(div);
 
 
 const tabs_div = document.createElement('div');
-tabs_div.setAttribute('class','tab');
+tabs_div.setAttribute('class', 'tab');
 
 const container = document.createElement('div');
-container.setAttribute('id','container');
+container.setAttribute('id', 'container');
 
 const buttons = Tabs();
-for(let i=0;i<3;i += 1){
+for (let i = 0; i < 3; i += 1) {
     tabs_div.appendChild(buttons[i]);
 };
 
@@ -30,9 +30,9 @@ function setStyle(button) {
     button.style.color = 'white';
 };
 
-function resetStyle(button_index){
-    for(let i=0;i<buttons.length;i += 1){
-        if(i !== button_index){
+function resetStyle(button_index) {
+    for (let i = 0; i < buttons.length; i += 1) {
+        if (i !== button_index) {
             buttons[i].style.backgroundColor = 'lightblue';
             buttons[i].style.color = 'black';
         }

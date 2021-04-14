@@ -1,5 +1,5 @@
 function Tabs() {
-    const buttons  =[];
+    const buttons = [];
 
     buttons[0] = document.createElement('button');
     buttons[0].innerText = 'Introduction';

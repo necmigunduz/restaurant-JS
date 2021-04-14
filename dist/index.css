@@ -1,0 +1,29 @@
+body {
+    background-image: url("kitchen.png");
+}
+
+.header {
+    text-align: right;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-left: 20px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: solid 30px rgb(129, 114, 114);
+    font-weight: 900;
+    font-size: 40px;
+    background-color: hsl(33, 100%, 88%, 0.4);
+}
+
+.blue-ocean {
+    color: rgb(191, 191, 255);
+    font-size: 70px;
+    font-weight: 800;
+}
+
+.restaurant {
+    color: rgb(255, 255, 255);
+    margin-right: 10px;
+    font-weight: 700;
+    font-size: 40px;
+}

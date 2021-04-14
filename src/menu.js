@@ -1,6 +1,6 @@
 function Menu() {
-  const menu_div = document.createElement('div');
-  menu_div.setAttribute('class', 'flex-column');
+  const menuDiv = document.createElement('div');
+  menuDiv.setAttribute('class', 'flex-column');
 
   const starters = document.createElement('div');
   starters.setAttribute('class', 'flex-display pb-10');
@@ -51,15 +51,15 @@ function Menu() {
     <span>Fruit Yoghurd Kinds</span>,
     <span>Kunefe</span>`;
 
-  menu_div.appendChild(starters);
-  menu_div.appendChild(space_1);
-  menu_div.appendChild(fishes);
-  menu_div.appendChild(space_2);
-  menu_div.appendChild(salads);
-  menu_div.appendChild(space_3);
-  menu_div.appendChild(desserts);
+  menuDiv.appendChild(starters);
+  menuDiv.appendChild(space_1);
+  menuDiv.appendChild(fishes);
+  menuDiv.appendChild(space_2);
+  menuDiv.appendChild(salads);
+  menuDiv.appendChild(space_3);
+  menuDiv.appendChild(desserts);
 
-  return menu_div;
+  return menuDiv;
 }
 
 export default Menu;

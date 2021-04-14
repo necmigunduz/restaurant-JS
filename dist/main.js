@@ -15,7 +15,7 @@
   \**********************/
 /***/ (() => {
 
-eval("console.log('Hello from JS!')\n\n//# sourceURL=webpack://restaurant-js/./src/index.js?");
+eval("const content = document.getElementById('content');\n\nconst header = document.createElement('h1');\nheader.setAttribute('id', 'header');\nheader.textContent = \"BlueOcean\";\n\nconst div = document.createElement('div');\ndiv.setAttribute('id','restaurant');\ndiv.textContent = \"Seafood Restaurant\";\n\nheader.appendChild(div);\ncontent.appendChild(header);\n\n\n//# sourceURL=webpack://restaurant-js/./src/index.js?");
 
 /***/ })
 

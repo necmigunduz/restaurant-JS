@@ -2,28 +2,24 @@ body {
     background-image: url("kitchen.png");
 }
 
-.header {
+#header {
     text-align: right;
-    margin-top: 50px;
-    margin-right: 50px;
-    margin-left: 20px;
-    color: white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    border: solid 30px rgb(129, 114, 114);
-    font-weight: 900;
+    color: rgb(208, 233, 240);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border: solid 30px rgb(177, 219, 243);
+    font-weight:bold;
     font-size: 40px;
-    background-color: hsl(33, 100%, 88%, 0.4);
+    background-image: linear-gradient(rgb(121, 175, 247), rgb(106, 137, 173), rgb(31, 31, 116));
+    opacity: 0.9;
+    padding: 50px;
 }
 
-.blue-ocean {
-    color: rgb(191, 191, 255);
-    font-size: 70px;
-    font-weight: 800;
-}
-
-.restaurant {
+#restaurant {
     color: rgb(255, 255, 255);
-    margin-right: 10px;
-    font-weight: 700;
-    font-size: 40px;
+    font-weight: 600;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px white solid;
+    padding: 10px;
+    background-color: hsl(182, 25%, 50%, 0.45);
 }

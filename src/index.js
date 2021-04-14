@@ -24,12 +24,12 @@ for (let i = 0; i < 3; i += 1) {
   tabsDiv.appendChild(buttons[i]);
 }
 
-function setStyle(button) {
+const setStyle = (button) => {
   button.style.backgroundColor = 'black';
   button.style.color = 'white';
 }
 
-function resetStyle(buttonIndex) {
+const resetStyle = (buttonIndex) => {
   for (let i = 0; i < buttons.length; i += 1) {
     if (i !== buttonIndex) {
       buttons[i].style.backgroundColor = 'lightblue';

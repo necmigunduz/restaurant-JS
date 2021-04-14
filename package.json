@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack --progress",
+    "start": "webpack-cli serve --mode development",
+    "watch": "webpack --progress --watch --mode=development"
   },
   "repository": {
     "type": "git",
@@ -17,7 +19,11 @@
   },
   "homepage": "https://github.com/necmigunduz/restaurant-JS#readme",
   "devDependencies": {
-    "webpack": "^5.32.0",
-    "webpack-cli": "^4.6.0"
+    "webpack": "^5.33.0",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "@webpack-cli/init": "^1.1.3"
   }
 }

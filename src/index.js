@@ -1,3 +1,8 @@
+import introduction from './introduction';
+import menu from './menu';
+import contact from './contact';
+import tabs from './tabs';
+
 const content = document.getElementById('content');
 
 const header = document.createElement('h1');

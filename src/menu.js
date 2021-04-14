@@ -1,27 +1,27 @@
 function Menu() {
-  const menu_div = document.createElement("div");
-  menu_div.setAttribute("class", "flex-column");
+  const menu_div = document.createElement('div');
+  menu_div.setAttribute('class', 'flex-column');
 
-  const starters = document.createElement("div");
-  starters.setAttribute("class", "flex-display pb-10");
+  const starters = document.createElement('div');
+  starters.setAttribute('class', 'flex-display pb-10');
 
-  const fishes = document.createElement("div");
-  fishes.setAttribute("class", "flex-display pb-10");
+  const fishes = document.createElement('div');
+  fishes.setAttribute('class', 'flex-display pb-10');
 
-  const salads = document.createElement("div");
-  salads.setAttribute("class", "flex-display pb-10");
+  const salads = document.createElement('div');
+  salads.setAttribute('class', 'flex-display pb-10');
 
-  const desserts = document.createElement("div");
-  desserts.setAttribute("class", "flex-display pb-10");
+  const desserts = document.createElement('div');
+  desserts.setAttribute('class', 'flex-display pb-10');
 
-  const space_1 = document.createElement("div");
-  space_1.setAttribute("class", "space");
+  const space_1 = document.createElement('div');
+  space_1.setAttribute('class', 'space');
 
-  const space_2 = document.createElement("div");
-  space_2.setAttribute("class", "space");
+  const space_2 = document.createElement('div');
+  space_2.setAttribute('class', 'space');
 
-  const space_3 = document.createElement("div");
-  space_3.setAttribute("class", "space");
+  const space_3 = document.createElement('div');
+  space_3.setAttribute('class', 'space');
 
   starters.innerHTML = `<span><strong>Starters: </strong></span>
     <span>Salty Pastries</span>,

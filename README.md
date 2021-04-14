@@ -17,7 +17,7 @@ A website where you can:
 
 To get a local copy up and running follow these simple example steps.
 
-- Clone this project by typing ```ggit@github.com:necmigunduz/restaurant-JS.git```
+- Clone this project by typing ```git@github.com:necmigunduz/restaurant-JS.git```
 - cd into restaurant-JS
 - Run git pull origin main
 

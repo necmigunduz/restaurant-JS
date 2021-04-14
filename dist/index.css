@@ -23,3 +23,12 @@ body {
     padding: 10px;
     background-color: hsl(182, 25%, 50%, 0.45);
 }
+
+.flex-row {
+    display: flex;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}

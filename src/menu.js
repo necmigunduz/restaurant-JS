@@ -35,7 +35,7 @@ function Menu() {
     <span>Cat Fish</span>,
     <span>Whitey</span>,
     <span>Branzino</span>`;
-  spaceII.innerHTML = `<br /><br />`;
+  spaceII.innerHTML = '<br /><br />';
   salads.innerHTML = `<span><strong>Salads: </strong></span>
     <span>Season Salad</span>,
     <span>Onion Salad</span>,

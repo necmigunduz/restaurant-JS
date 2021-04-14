@@ -24,6 +24,15 @@ body {
     background-color: hsl(182, 25%, 50%, 0.45);
 }
 
+#container {
+    color: white;
+    background-color: black;
+    width: 60%;
+    margin-left: 150px;
+    padding: 20px;
+    opacity: 0.8;
+}
+
 .flex-row {
     display: flex;
 }
@@ -31,4 +40,39 @@ body {
 .flex-column {
     display: flex;
     flex-direction: column;
+    text-align: center;
 }
+
+.p-b-10 {
+    padding-bottom: 20px;
+}
+
+#tab {
+    overflow: hidden;
+  
+    /* border: 1px solid white; */
+  
+    /* background-color:black; */
+  
+    width: 30%;
+    margin-left: 150px;
+    height: 50px;
+}
+
+#tab button {
+    background-color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 17px 30px;
+    transition: 0.3s;
+    text-decoration: none;
+    color: black;
+  }
+
+  .tab button:hover {
+    background-color: black;
+    color: white;
+  }
+

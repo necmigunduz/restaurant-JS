@@ -1,0 +1,102 @@
+body {
+  background-image: url("kitchen.png");
+}
+
+#header {
+  text-align: right;
+  color: rgb(208, 233, 240);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: solid 20px rgb(174, 205, 223);
+  font-weight: bold;
+  font-size: 40px;
+  background-image: linear-gradient(
+    rgb(121, 175, 247),
+    rgb(47, 98, 156),
+    rgb(31, 31, 116)
+  );
+  opacity: 0.9;
+  padding: 10px;
+}
+
+#restaurant {
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+  border: 2px rgb(184, 202, 235) solid;
+  padding: 10px;
+  background-color: hsl(182, 25%, 50%, 0.45);
+}
+
+#container {
+  color: white;
+  background-color: black;
+  width: 95%;
+  height: 300px;
+  padding: 20px;
+  opacity: 0.8;
+  margin: 0 20px;
+}
+
+.intro {
+  margin-top: 85px;
+  width: 100%;
+  text-align: justify;
+  justify-content: start;
+  line-height: 30px;
+  font-size: 18px;
+}
+
+.flex-row {
+  display: flex;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  margin-top: 50px;
+}
+
+.p-b-10 {
+  padding-bottom: 20px;
+}
+
+.tab {
+  overflow: hidden;
+  width: 80%;
+  margin: 0 20px;
+}
+
+.tab button {
+  background-color: lightblue;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 15px;
+  transition: 0.5s;
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: bold;
+  border-radius: 5px;
+  margin: 5px 10px 5px 0;
+}
+
+.tab button:hover {
+  background-color: black;
+  color: lightblue;
+}
+
+strong {
+    color: blue;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.contact {
+  margin-top: 50px;
+  font-size: 18px;
+}

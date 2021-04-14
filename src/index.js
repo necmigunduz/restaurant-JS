@@ -13,15 +13,15 @@ div.setAttribute('id', 'restaurant');
 div.textContent = 'Seafood Restaurant';
 header.appendChild(div);
 
-const tabs_div = document.createElement('div');
-tabs_div.setAttribute('class', 'tab');
+const tabsDiv = document.createElement('div');
+tabsDiv.setAttribute('class', 'tab');
 
 const container = document.createElement('div');
 container.setAttribute('id', 'container');
 
 const buttons = Tabs();
 for (let i = 0; i < 3; i += 1) {
-  tabs_div.appendChild(buttons[i]);
+  tabsDiv.appendChild(buttons[i]);
 }
 
 function setStyle(button) {
@@ -29,9 +29,9 @@ function setStyle(button) {
   button.style.color = 'white';
 }
 
-function resetStyle(button_index) {
+function resetStyle(buttonIndex) {
   for (let i = 0; i < buttons.length; i += 1) {
-    if (i !== button_index) {
+    if (i !== buttonIndex) {
       buttons[i].style.backgroundColor = 'lightblue';
       buttons[i].style.color = 'black';
     }
@@ -40,8 +40,8 @@ function resetStyle(button_index) {
 
 buttons[0].addEventListener('click', () => {
   container.innerHTML = '';
-  const intro_div = Introduction();
-  container.appendChild(intro_div);
+  const introDiv = Introduction();
+  container.appendChild(introDiv);
   setStyle(buttons[0]);
   resetStyle(0);
 });
@@ -63,5 +63,5 @@ buttons[2].addEventListener('click', () => {
 });
 
 content.appendChild(header);
-content.appendChild(tabs_div);
+content.appendChild(tabsDiv);
 content.appendChild(container);

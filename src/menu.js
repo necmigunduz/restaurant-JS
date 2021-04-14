@@ -14,28 +14,28 @@ function Menu() {
   const desserts = document.createElement('div');
   desserts.setAttribute('class', 'flex-display pb-10');
 
-  const space_1 = document.createElement('div');
-  space_1.setAttribute('class', 'space');
+  const spaceI = document.createElement('div');
+  spaceI.setAttribute('class', 'space');
 
-  const space_2 = document.createElement('div');
-  space_2.setAttribute('class', 'space');
+  const spaceII = document.createElement('div');
+  spaceII.setAttribute('class', 'space');
 
-  const space_3 = document.createElement('div');
-  space_3.setAttribute('class', 'space');
+  const spaceIII = document.createElement('div');
+  spaceIII.setAttribute('class', 'space');
 
   starters.innerHTML = `<span><strong>Starters: </strong></span>
     <span>Salty Pastries</span>,
     <span>Cheese Plate</span>,
     <span>Chef's Special Soup of Day</span>,
     <span>Beverages and Spirits</span>`;
-  space_1.innerHTML = `<br /><br />`;
+  spaceI.innerHTML = `<br /><br />`;
   fishes.innerHTML = `<span><strong>Fishes: </strong></span>
     <span>Sea Trout</span>,
     <span>Octopus and Calamar</span>,
     <span>Cat Fish</span>,
     <span>Whitey</span>,
     <span>Branzino</span>`;
-  space_2.innerHTML = `<br /><br />`;
+  spaceII.innerHTML = `<br /><br />`;
   salads.innerHTML = `<span><strong>Salads: </strong></span>
     <span>Season Salad</span>,
     <span>Onion Salad</span>,
@@ -43,7 +43,7 @@ function Menu() {
     <span>Seafood Salad</span>,
     <span>Cheese Salad</span>,
     <span>Mediterrenian Salad</span>`;
-  space_3.innerHTML = `<br > <br/>`;
+  spaceIII.innerHTML = `<br > <br/>`;
   desserts.innerHTML = `<span><strong>Desserts: </strong></span>
     <span>Baked Halva</span>,
     <span>Milk Pudding</span>,
@@ -52,11 +52,11 @@ function Menu() {
     <span>Kunefe</span>`;
 
   menuDiv.appendChild(starters);
-  menuDiv.appendChild(space_1);
+  menuDiv.appendChild(spaceI);
   menuDiv.appendChild(fishes);
-  menuDiv.appendChild(space_2);
+  menuDiv.appendChild(spaceII);
   menuDiv.appendChild(salads);
-  menuDiv.appendChild(space_3);
+  menuDiv.appendChild(spaceIII);
   menuDiv.appendChild(desserts);
 
   return menuDiv;

@@ -27,7 +27,7 @@ for (let i = 0; i < 3; i += 1) {
 const setStyle = (button) => {
   button.style.backgroundColor = 'black';
   button.style.color = 'white';
-}
+};
 
 const resetStyle = (buttonIndex) => {
   for (let i = 0; i < buttons.length; i += 1) {
@@ -36,7 +36,7 @@ const resetStyle = (buttonIndex) => {
       buttons[i].style.color = 'black';
     }
   }
-}
+};
 
 buttons[0].addEventListener('click', () => {
   container.innerHTML = '';
